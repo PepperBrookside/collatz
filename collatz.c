@@ -10,7 +10,7 @@ int main(int argc, char *argv[])
     // ensure proper command line arguments
     if (argc != 2)
     {
-        printf("Please enter type one integer next to the file name.\n");
+        printf("Please enter one integer next to the file name.\n");
         printf("Example: ./colliatz 7\n");
         return 1;
     }
